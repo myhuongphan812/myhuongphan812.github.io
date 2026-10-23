@@ -79,9 +79,10 @@
     font-size: 1.35em;
     color: #7A4E0D;
   }
-  .gallery { text-align: center; }
+  .gallery { text-align: center; display: flex; flex-wrap: wrap; gap: 18px; justify-content: center; }
+  .gallery h2 { flex-basis: 100%; }
   .gallery img {
-    width: 300px; max-width: 82vw;
+    width: 250px; max-width: 82vw;
     border-radius: 18px;
     border: 4px solid #E9B949;
     box-shadow: 0 10px 24px rgba(190, 140, 40, 0.2);
@@ -156,6 +157,8 @@
 
   <section class="gallery">
     <h2>📷 Khoảnh Khắc</h2>
+    <img src="anh-vest.jpg" alt="Titi Phan — phong thái tự tin nơi công sở">
+    <img src="anh-hong.jpg" alt="Titi Phan — dịu dàng bên hoa lan">
     <img src="anh-that.jpg" alt="Titi Phan">
   </section>
 
